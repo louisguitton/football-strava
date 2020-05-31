@@ -9,7 +9,12 @@ def read(fname):
     return data
 
 
-base_packages = ["Click>=7.0"]
+base_packages = [
+    "geopandas>=0.7.0",
+    "matplotlib>=3.2.1",
+    # altair vega_datasets folium
+    "Click>=7.0",
+]
 
 dev_packages = [
     "jupyterlab>=0.35.4",
