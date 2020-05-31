@@ -12,7 +12,8 @@ def read(fname):
 base_packages = [
     "geopandas>=0.7.0",
     "matplotlib>=3.2.1",
-    # altair vega_datasets folium
+    "altair>=4.1.0",
+    "folium>=0.11.0",
     "Click>=7.0",
 ]
 
