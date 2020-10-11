@@ -1,0 +1,2 @@
+# temporary requirements, real ones are in setup.py
+stravaio
