@@ -1,4 +1,4 @@
-data/_Onefootball_3_1_Exozet.gpx
+data/*.gpx
 
 # Created by https://www.gitignore.io/api/python,virtualenv,jupyternotebooks,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=python,virtualenv,jupyternotebooks,visualstudiocode

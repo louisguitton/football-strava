@@ -41,3 +41,13 @@ make serve-docs
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+## Next steps
+
+- look at what [zepp](https://www.zepp.com/en-us/soccer/game-tracking/) and [jacquard](https://atap.google.com/jacquard/products/gmr/) are doing
+- running speed
+- split of min walk / run / sprint
+- histogram of distance ran per 5 min bins
+- max speed in km/h of the game
+- number of sprints per 5 min bins
+- total active time in minutes of game play
