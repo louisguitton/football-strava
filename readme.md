@@ -42,7 +42,7 @@ make serve-docs
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-## Next steps
+## Next steps
 
 - look at what [zepp](https://www.zepp.com/en-us/soccer/game-tracking/) and [jacquard](https://atap.google.com/jacquard/products/gmr/) are doing
 - running speed
