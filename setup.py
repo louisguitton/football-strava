@@ -20,7 +20,7 @@ dev_packages = [
     "mkdocs>=1.1",
     "mkdocs-material==4.6.3",
     "mkdocstrings>=0.11.0",
-    "mkdocs-jupyter>=0.17.1"
+    "mkdocs-jupyter>=0.17.1",
 ]
 
 setup(
