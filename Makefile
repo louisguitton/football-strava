@@ -12,11 +12,8 @@ develop: install
 lint:
 	flake8 setup.py football_strava tests --count --statistics
 
-test:
-	pytest tests
-
 docs:
-	mkdocs build --clean --site-dir public
+	mkdocs build --clean
 
 serve-docs:
 	mkdocs serve
@@ -30,5 +27,5 @@ clean:
 	rm -rf notebooks/.ipynb_checkpoints
 	rm -rf .mypy_cache
 
-build:
-	docker build -t football_strava .
+github-pages:
+	mkdocs gh-deploy

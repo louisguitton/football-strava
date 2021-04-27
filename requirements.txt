@@ -1,2 +1,7 @@
-# temporary requirements, real ones are in setup.py
-stravaio
+altair>=4.1.0
+Click>=7.0
+folium>=0.11.0
+geopandas>=0.7.0
+matplotlib>=3.2.1
+pydantic>=1.8.1
+stravaio>=0.0.9

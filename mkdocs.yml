@@ -1,10 +1,25 @@
 site_name: football-strava
+site_author: Louis Guitton
+site_description: Visualise your football games in GPX format
+repo_url: https://github.com/louisguitton/football-strava
+
 nav:
   - Home: /
+  - Analyse your Football Data: notebooks/analysis.ipynb
+
 theme:
   name: material
   palette:
     primary: white
     accent: purple
+
+docs_dir: docs
+site_dir: public
+
+strict: true
+    
 markdown_extensions:
   - pymdownx.snippets
+
+plugins:
+  - mkdocs-jupyter

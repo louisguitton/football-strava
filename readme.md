@@ -1,11 +1,14 @@
 # football_strava
 
-> Short punchline about what your product does.
+> Visualise your football games in GPX format
 
 ![Platform](https://img.shields.io/badge/python-3.7-blue.svg)
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 
-One to two paragraph statement about your product and what it does.
+Code for the blog post https://guitton.co/posts/football-strava/ where I explain
+how I track my football games.
+
+⚠️ Football has been interupted by Covid, so has my motivation for this project. Will pick it up later, feel free to contribute.
 
 ![](docs/images/header.png)
 
@@ -18,29 +21,15 @@ make install
 ## Usage
 
 ```sh
-football_strava --help
+jupyter lab doc/notebooks
 ```
 
 ## Development
 
 ```sh
 make develop
-make test
 make serve-docs
 ```
-
-## Release History
-
-- 0.1.0
-  - first release
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
 ## Next steps
 

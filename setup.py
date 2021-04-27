@@ -9,13 +9,7 @@ def read(fname):
     return data
 
 
-base_packages = [
-    "geopandas>=0.7.0",
-    "matplotlib>=3.2.1",
-    "altair>=4.1.0",
-    "folium>=0.11.0",
-    "Click>=7.0",
-]
+base_packages = read("requirements.txt")
 
 dev_packages = [
     "jupyterlab>=0.35.4",
@@ -26,6 +20,7 @@ dev_packages = [
     "mkdocs>=1.1",
     "mkdocs-material==4.6.3",
     "mkdocstrings>=0.11.0",
+    "mkdocs-jupyter>=0.17.1"
 ]
 
 setup(
@@ -34,6 +29,5 @@ setup(
     packages=find_packages(exclude=["data", "docs", "notebooks"]),
     long_description=read("readme.md"),
     install_requires=base_packages,
-    entry_points={"console_scripts": ["football_strava = football_strava.cli:cli"]},
     extras_require={"dev": dev_packages},
 )
